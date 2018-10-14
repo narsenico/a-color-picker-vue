@@ -1,0 +1,69 @@
+{
+  "name": "a-color-picker-vue",
+  "version": "1.0.0",
+  "description": "a-color-picker wrapper for Vue.js",
+  "main": "dist/AColorPicker.umd.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "build:lib": "vue-cli-service build --target lib --name AColorPicker src/AColorPicker.vue",
+    "lint": "vue-cli-service lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/narsenico/a-color-picker-vue.git"
+  },
+  "keywords": [
+    "color",
+    "picker",
+    "vue",
+    "javascript"
+  ],
+  "author": "narsenico",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/narsenico/a-color-picker-vue/issues"
+  },
+  "homepage": "https://github.com/narsenico/a-color-picker-vue#readme",
+  "dependencies": {},
+  "peerDependencies": {
+    "vue": "^2.5.16"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.0-rc.10",
+    "@vue/cli-plugin-eslint": "^3.0.0-rc.10",
+    "@vue/cli-service": "^3.0.0-rc.10",
+    "a-color-picker": "^1.1.1",
+    "vue": "^2.5.17",
+    "vue-template-compiler": "^2.5.16"
+  },
+  "vue": {
+    "css": {
+      "extract": false
+    }
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
