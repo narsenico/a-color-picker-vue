@@ -1395,12 +1395,12 @@ if (typeof window !== 'undefined') {
 // Indicate to webpack that this file can be concatenated
 /* harmony default export */ var setPublicPath = (null);
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"6a97baec-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/AColorPicker.vue?vue&type=template&id=ca18f516&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"5238a672-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/AColorPicker.vue?vue&type=template&id=9fc7d7c6&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{ref:"acpContainer",staticClass:"acp-container",attrs:{"acp-color":_vm.color,"acp-show-hsl":_vm.showHsl,"acp-show-rgb":_vm.showRgb,"acp-show-hex":_vm.showHex,"acp-show-alpha":_vm.showAlpha,"acp-palette-editable":_vm.paletteEditable,"acp-palette":_vm.palette,"acp-use-alpha-in-palette":_vm.useAlphaInPalette}})}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/AColorPicker.vue?vue&type=template&id=ca18f516&
+// CONCATENATED MODULE: ./src/AColorPicker.vue?vue&type=template&id=9fc7d7c6&
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es6.number.constructor.js
 var es6_number_constructor = __webpack_require__("c5f6");
@@ -1438,7 +1438,9 @@ var boolProp = {
     showHex: boolProp,
     showAlpha: boolProp,
     paletteEditable: boolProp,
-    palette: [String, Array],
+    // color1;color2;...;colorn
+    palette: String,
+    // true|false|auto
     useAlphaInPalette: [String, Boolean]
   },
   mounted: function mounted() {

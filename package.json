@@ -1,5 +1,5 @@
 {
-  "name": "a-color-picker-vue",
+  "name": "vue-a-color-picker",
   "version": "0.0.2",
   "description": "a-color-picker wrapper for Vue.js",
   "main": "dist/AColorPicker.umd.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/narsenico/a-color-picker-vue.git"
+    "url": "git+https://github.com/narsenico/vue-a-color-picker.git"
   },
   "keywords": [
     "color",
@@ -22,9 +22,9 @@
   "author": "narsenico",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/narsenico/a-color-picker-vue/issues"
+    "url": "https://github.com/narsenico/vue-a-color-picker/issues"
   },
-  "homepage": "https://github.com/narsenico/a-color-picker-vue#readme",
+  "homepage": "https://github.com/narsenico/vue-a-color-picker#readme",
   "dependencies": {},
   "peerDependencies": {
     "vue": "^2.5.16"
