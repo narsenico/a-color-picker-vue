@@ -1,27 +1,28 @@
 <template>
 <div id="app">
     <h1>a-color-picker vue demo</h1>
-    <a-color-picker 
-        class="with-border" 
-        color="red" 
+    <a-color-picker
+        ref="foo"
+        class="with-border"
+        color="red"
         show-hsl="yes"
         show-rgb="yes"
         show-hex="yes"
-        show-alpha="yes" 
-        palette="red;blue;green;yellow" 
-        palette-editable="yes" 
+        show-alpha="yes"
+        palette="red;blue;green;yellow"
+        palette-editable="yes"
         use-alpha-in-palette="yes"
-        v-on:change="colorChange" 
-        v-on:coloradd="colorAdd" 
+        v-on:change="colorChange"
+        v-on:coloradd="colorAdd"
         v-on:colorremove="colorRemove">
     </a-color-picker>
-    <a-color-picker 
-        class="with-border" 
-        color="purple" 
+    <a-color-picker
+        class="with-border"
+        color="purple"
         show-hsl="no"
-        show-alpha="no" 
-        v-on:change="colorChange" 
-        v-on:coloradd="colorAdd" 
+        show-alpha="no"
+        v-on:change="colorChange"
+        v-on:coloradd="colorAdd"
         v-on:colorremove="colorRemove">
     </a-color-picker>
     <span ref="sdebug"></span>

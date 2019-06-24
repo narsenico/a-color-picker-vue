@@ -1,6 +1,7 @@
-a-color-picker wrapper for Vue.js
+a-color-picker-vue
 ===
+Vue.js wrapper for [a-color-picker](https://github.com/narsenico/a-color-picker)
 
-See [a-color-picker repository](https://github.com/narsenico/a-color-picker)
 
-v0.0.1
+
+

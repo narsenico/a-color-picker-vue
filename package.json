@@ -1,6 +1,6 @@
 {
   "name": "a-color-picker-vue",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "a-color-picker wrapper for Vue.js",
   "main": "dist/AColorPicker.umd.js",
   "scripts": {
@@ -30,12 +30,12 @@
     "vue": "^2.5.16"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.0.0-rc.10",
-    "@vue/cli-plugin-eslint": "^3.0.0-rc.10",
-    "@vue/cli-service": "^3.0.0-rc.10",
-    "a-color-picker": "^1.1.1",
-    "vue": "^2.5.17",
-    "vue-template-compiler": "^2.5.16"
+    "@vue/cli-plugin-babel": "^3.8.0",
+    "@vue/cli-plugin-eslint": "^3.8.0",
+    "@vue/cli-service": "^3.8.4",
+    "a-color-picker": "^1.1.7",
+    "vue": "^2.6.10",
+    "vue-template-compiler": "^2.6.10"
   },
   "vue": {
     "css": {

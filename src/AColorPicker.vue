@@ -1,11 +1,11 @@
 <template>
-    <div class="acp-container" ref="acpContainer" 
-        :acp-color="color" 
+    <div class="acp-container" ref="acpContainer"
+        :acp-color="color"
         :acp-show-hsl="showHsl"
         :acp-show-rgb="showRgb"
         :acp-show-hex="showHex"
         :acp-show-alpha="showAlpha"
-        :acp-palette-editable="paletteEditable" 
+        :acp-palette-editable="paletteEditable"
         :acp-palette="palette"
         :acp-use-alpha-in-palette="useAlphaInPalette">
     </div>
@@ -27,7 +27,9 @@ export default {
     showHex: boolProp,
     showAlpha: boolProp,
     paletteEditable: boolProp,
+    // color1;color2;...;colorn
     palette: String,
+    // true|false|auto
     useAlphaInPalette: [String, Boolean]
   },
   mounted() {
